@@ -1,0 +1,35 @@
+.sidebar {
+    background-color: white;
+    width: 5rem;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px solid #f7f7f7;
+  }
+  .logo{
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    border-bottom: 1px solid #d1d1d1;
+  }
+  .home {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+  }
+  .chat{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+  }
+  .setting{
+    margin-top: auto;
+    margin-bottom: 2.4rem;
+    cursor: pointer;
+  }
